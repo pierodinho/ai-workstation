@@ -1,0 +1,957 @@
+{
+  "title": "AI Workstation",
+  "edition": "Édition publique · lecture seule",
+  "updated": "2026-10-19",
+  "domains": [
+    {
+      "id": "ia",
+      "label": "IA",
+      "description": "Assistants, modèles et agents"
+    },
+    {
+      "id": "dev",
+      "label": "DEV",
+      "description": "Ingénierie logicielle et tests"
+    },
+    {
+      "id": "data",
+      "label": "DATA",
+      "description": "Acquisition, préparation et analyse"
+    },
+    {
+      "id": "product",
+      "label": "PRODUCT",
+      "description": "Besoins, conception produit et validation"
+    },
+    {
+      "id": "design",
+      "label": "DESIGN",
+      "description": "Interfaces, graphisme et création"
+    },
+    {
+      "id": "project",
+      "label": "PROJECT MANAGEMENT",
+      "description": "Organisation, documentation et coordination"
+    },
+    {
+      "id": "marketing",
+      "label": "MARKETING",
+      "description": "Contenus et communication du produit"
+    },
+    {
+      "id": "ops",
+      "label": "ARCHI / OPS",
+      "description": "Architecture, exécution, sécurité et sauvegarde"
+    },
+    {
+      "id": "network",
+      "label": "RÉSEAUX",
+      "description": "Navigation, connectivité et accès distants"
+    },
+    {
+      "id": "hardware",
+      "label": "HARDWARE",
+      "description": "Matériel, pilotes et diagnostic"
+    }
+  ],
+  "phases": [
+    {
+      "id": "discover",
+      "label": "Cadrer"
+    },
+    {
+      "id": "plan",
+      "label": "Organiser"
+    },
+    {
+      "id": "design",
+      "label": "Concevoir"
+    },
+    {
+      "id": "build",
+      "label": "Construire"
+    },
+    {
+      "id": "test",
+      "label": "Vérifier"
+    },
+    {
+      "id": "deploy",
+      "label": "Déployer"
+    },
+    {
+      "id": "operate",
+      "label": "Exploiter"
+    },
+    {
+      "id": "measure",
+      "label": "Mesurer / améliorer"
+    }
+  ],
+  "tools": [
+    {
+      "id": "adobe-illustrator",
+      "name": "Adobe Illustrator",
+      "domains": [
+        "design",
+        "marketing"
+      ],
+      "phases": [
+        "design",
+        "deploy"
+      ],
+      "why": "Produire des illustrations vectorielles.",
+      "how": "Édition de formes, tracés et typographie puis export vers des formats graphiques.",
+      "mode": "hybrid",
+      "license": "Propriétaire",
+      "source": "https://www.adobe.com/products/illustrator.html"
+    },
+    {
+      "id": "agent-ia-local",
+      "name": "Agent IA local",
+      "domains": [
+        "ia",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Travailler avec OpenCode depuis tes projets.",
+      "how": "Raccourci local qui ouvre OpenCode. Les permissions sont définies dans la configuration OpenCode.",
+      "mode": "local",
+      "license": "Selon OpenCode et le modèle",
+      "source": "https://opencode.ai/v2/docs/agents/"
+    },
+    {
+      "id": "aida64",
+      "name": "AIDA64",
+      "domains": [
+        "hardware"
+      ],
+      "phases": [
+        "discover",
+        "operate"
+      ],
+      "why": "Diagnostiquer et mesurer le matériel.",
+      "how": "Rapports et tests matériels ; certaines fonctionnalités dépendent de la licence.",
+      "mode": "local",
+      "license": "Propriétaire, payant / essai",
+      "source": "https://www.aida64.com/"
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Tester les API dans une interface graphique.",
+      "how": "Organise requêtes, environnements et tests en collections locales versionnables.",
+      "mode": "local",
+      "license": "Socle MIT ; fonctions payantes possibles",
+      "source": "https://www.usebruno.com/product/api-client"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "domains": [
+        "design",
+        "marketing"
+      ],
+      "phases": [
+        "design",
+        "deploy"
+      ],
+      "why": "Créer des supports visuels et contenus de communication.",
+      "how": "Éditeur connecté avec modèles et ressources ; certaines fonctions dépendent d’un abonnement.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://www.canva.com/"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "domains": [
+        "ia",
+        "product",
+        "dev",
+        "data"
+      ],
+      "phases": [
+        "discover",
+        "plan",
+        "build",
+        "test",
+        "measure"
+      ],
+      "why": "Clarifier une idée, analyser et assister le travail.",
+      "how": "Application cliente : les échanges usuels s’appuient sur un service en ligne. Les accès locaux dépendent des outils autorisés.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://help.openai.com/"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "domains": [
+        "ia",
+        "dev",
+        "product"
+      ],
+      "phases": [
+        "discover",
+        "plan",
+        "build",
+        "test"
+      ],
+      "why": "Assistance à la rédaction, au raisonnement et au développement.",
+      "how": "Client du service Claude ; les connexions et capacités dépendent du compte.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://www.anthropic.com/claude"
+    },
+    {
+      "id": "copilot",
+      "name": "Copilot",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "discover",
+        "build"
+      ],
+      "why": "Assistant et accès aux services Copilot.",
+      "how": "L’entrée installée ne prouve pas la présence de GitHub Copilot dans VS Code.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://www.microsoft.com/microsoft-copilot"
+    },
+    {
+      "id": "cpu-z",
+      "name": "CPU-Z",
+      "domains": [
+        "hardware"
+      ],
+      "phases": [
+        "discover",
+        "operate"
+      ],
+      "why": "Identifier le processeur, la mémoire et la carte mère.",
+      "how": "Lit les informations matérielles ; ses résultats ne sont pas un réglage automatique de performances.",
+      "mode": "local",
+      "license": "Propriétaire, freeware",
+      "source": "https://www.cpuid.com/softwares/cpu-z.html"
+    },
+    {
+      "id": "dagster",
+      "name": "Dagster",
+      "domains": [
+        "data",
+        "ops"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "operate"
+      ],
+      "why": "Décrire et orchestrer des traitements de données.",
+      "how": "Les assets lancent tes fonctions ou scripts ; les contrôles valident les résultats et les runs en gardent la trace.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://docs.dagster.io/"
+    },
+    {
+      "id": "davinci-resolve",
+      "name": "DaVinci Resolve",
+      "domains": [
+        "design",
+        "marketing"
+      ],
+      "phases": [
+        "design",
+        "deploy"
+      ],
+      "why": "Monter et produire des contenus vidéo et audio.",
+      "how": "Chaîne de montage, étalonnage et son ; les utilitaires Blackmagic sont distingués dans les preuves d’installation.",
+      "mode": "local",
+      "license": "Propriétaire ; éditions gratuite et Studio",
+      "source": "https://www.blackmagicdesign.com/products/davinciresolve"
+    },
+    {
+      "id": "dbeaver",
+      "name": "DBeaver",
+      "domains": [
+        "data",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "measure"
+      ],
+      "why": "Explorer les bases et exécuter des requêtes SQL.",
+      "how": "Se connecte avec des pilotes ; DuckDB peut lire tes Parquet sans serveur séparé.",
+      "mode": "local",
+      "license": "Community Apache-2.0",
+      "source": "https://dbeaver.io/"
+    },
+    {
+      "id": "docker-desktop",
+      "name": "Docker Desktop",
+      "domains": [
+        "ops",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "deploy",
+        "operate"
+      ],
+      "why": "Exécuter et piloter les services en conteneurs.",
+      "how": "Docker Compose décrit des services ; les volumes conservent leurs données au-delà des conteneurs.",
+      "mode": "local",
+      "license": "Propriétaire ; gratuité sous conditions",
+      "source": "https://docs.docker.com/desktop/"
+    },
+    {
+      "id": "draw-io",
+      "name": "draw.io",
+      "domains": [
+        "product",
+        "design",
+        "ops"
+      ],
+      "phases": [
+        "discover",
+        "design"
+      ],
+      "why": "Dessiner des architectures, flux et processus.",
+      "how": "Éditeur de diagrammes ; les fichiers peuvent être conservés et exportés localement.",
+      "mode": "local",
+      "license": "Apache-2.0 pour le dépôt desktop",
+      "source": "https://www.drawio.com/docs/manual/editor/offline/"
+    },
+    {
+      "id": "duckdb",
+      "name": "DuckDB",
+      "domains": [
+        "data"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "measure"
+      ],
+      "why": "Analyser des fichiers avec SQL, sans serveur dédié.",
+      "how": "Moteur embarqué ; un pilote JDBC permet son utilisation dans DBeaver.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://duckdb.org/docs/stable/"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "discover",
+        "build"
+      ],
+      "why": "Assistant généraliste Google.",
+      "how": "Client ou application web d’un service distant.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://gemini.google.com/"
+    },
+    {
+      "id": "gemini-notebook",
+      "name": "Gemini Notebook",
+      "domains": [
+        "ia",
+        "data"
+      ],
+      "phases": [
+        "discover",
+        "measure"
+      ],
+      "why": "Accéder à l’outil web enregistré sous ce nom.",
+      "how": "Application web installée : sa cible doit être vérifiée avant de l’assimiler à NotebookLM.",
+      "mode": "cloud",
+      "license": "À vérifier",
+      "source": "https://ai.google/"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "deploy"
+      ],
+      "why": "Conserver l’historique et collaborer sur le code.",
+      "how": "Git versionne les fichiers du dépôt ; les fichiers non suivis ne sont pas une sauvegarde distante.",
+      "mode": "local",
+      "license": "GPL-2.0",
+      "source": "https://git-scm.com/doc"
+    },
+    {
+      "id": "github-desktop",
+      "name": "GitHub Desktop",
+      "domains": [
+        "dev",
+        "project"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Suivre les changements du code visuellement.",
+      "how": "Interface Git locale ; synchronise avec un dépôt distant quand tu le demandes.",
+      "mode": "hybrid",
+      "license": "MIT",
+      "source": "https://docs.github.com/en/desktop"
+    },
+    {
+      "id": "google-ai-studio",
+      "name": "Google AI Studio",
+      "domains": [
+        "ia",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Expérimenter des modèles et leurs API.",
+      "how": "Interface en ligne pour tester des instructions et préparer des appels API.",
+      "mode": "cloud",
+      "license": "Service propriétaire ; quotas à vérifier",
+      "source": "https://aistudio.google.com/"
+    },
+    {
+      "id": "google-chrome",
+      "name": "Google Chrome",
+      "domains": [
+        "network"
+      ],
+      "phases": [
+        "discover",
+        "test",
+        "operate"
+      ],
+      "why": "Naviguer et tester les interfaces web.",
+      "how": "Navigateur local connecté aux services visités ; outils de développement intégrés.",
+      "mode": "hybrid",
+      "license": "Distribution propriétaire ; Chromium open source",
+      "source": "https://www.google.com/chrome/"
+    },
+    {
+      "id": "hugging-face",
+      "name": "Hugging Face",
+      "domains": [
+        "ia",
+        "data"
+      ],
+      "phases": [
+        "discover",
+        "build"
+      ],
+      "why": "Trouver des modèles, jeux de données et démonstrations.",
+      "how": "Plateforme de ressources ; télécharger des poids ne rend pas automatiquement leur licence libre.",
+      "mode": "cloud",
+      "license": "Licences propres à chaque ressource",
+      "source": "https://huggingface.co/docs"
+    },
+    {
+      "id": "keepassxc",
+      "name": "KeePassXC",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "build",
+        "deploy",
+        "operate"
+      ],
+      "why": "Conserver des secrets dans un coffre chiffré local.",
+      "how": "Une phrase de passe ouvre le fichier KDBX ; le coffre et sa sauvegarde doivent rester récupérables.",
+      "mode": "local",
+      "license": "GPL-2.0 / GPL-3.0",
+      "source": "https://keepassxc.org/docs/"
+    },
+    {
+      "id": "kopiaui",
+      "name": "KopiaUI",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Conserver et restaurer des versions de fichiers.",
+      "how": "Snapshots chiffrés vers un dépôt ; la planification nécessite le fonctionnement de Kopia.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://kopia.io/docs/"
+    },
+    {
+      "id": "microsoft-edge",
+      "name": "Microsoft Edge",
+      "domains": [
+        "network"
+      ],
+      "phases": [
+        "discover",
+        "test",
+        "operate"
+      ],
+      "why": "Naviguer et tester les applications web.",
+      "how": "Navigateur Windows ; les données et services en ligne dépendent du compte et des paramètres.",
+      "mode": "hybrid",
+      "license": "Propriétaire",
+      "source": "https://www.microsoft.com/edge"
+    },
+    {
+      "id": "microsoft-to-do",
+      "name": "Microsoft To Do",
+      "domains": [
+        "project"
+      ],
+      "phases": [
+        "plan",
+        "operate"
+      ],
+      "why": "Organiser des tâches personnelles.",
+      "how": "Listes et rappels synchronisés selon le compte.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://to-do.office.com/"
+    },
+    {
+      "id": "node-js",
+      "name": "Node.js",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Exécuter JavaScript et les outils de développement.",
+      "how": "Runtime local accompagné de npm ; les dépendances appartiennent aux projets ou à l’installation globale.",
+      "mode": "local",
+      "license": "MIT et dépendances",
+      "source": "https://nodejs.org/en/learn"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "domains": [
+        "project",
+        "product"
+      ],
+      "phases": [
+        "discover",
+        "plan",
+        "operate"
+      ],
+      "why": "Structurer notes, tâches et documentation.",
+      "how": "Pages et bases de données d’un service synchronisé ; l’installation locale ne garantit pas une autonomie hors ligne complète.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://www.notion.com/help"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "operate"
+      ],
+      "why": "Exécuter des modèles de langage sur ta machine.",
+      "how": "Charge un modèle et expose une API locale ; la vitesse dépend du matériel et du contexte.",
+      "mode": "local",
+      "license": "Moteur MIT ; modèles : licences propres",
+      "source": "https://docs.ollama.com/"
+    },
+    {
+      "id": "onenote",
+      "name": "OneNote",
+      "domains": [
+        "project"
+      ],
+      "phases": [
+        "discover",
+        "plan"
+      ],
+      "why": "Conserver des notes et de la documentation.",
+      "how": "Carnets et pages ; synchronisation et capacités hors ligne selon la version.",
+      "mode": "hybrid",
+      "license": "Propriétaire",
+      "source": "https://www.onenote.com/"
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "discover",
+        "build",
+        "measure"
+      ],
+      "why": "Dialoguer avec des modèles via une interface web.",
+      "how": "Interface pouvant se connecter à Ollama ou à des fournisseurs externes ; un raccourci seul ne prouve pas que le serveur tourne.",
+      "mode": "hybrid",
+      "license": "Vérifier les conditions de la version installée",
+      "source": "https://docs.openwebui.com/"
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "domains": [
+        "ia",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Assister la programmation avec un agent.",
+      "how": "Client d’agent qui peut utiliser un fournisseur local ou distant. Le modèle configuré décide du lieu d’inférence.",
+      "mode": "hybrid",
+      "license": "Vérifier la version installée",
+      "source": "https://opencode.ai/v2/docs/"
+    },
+    {
+      "id": "openrefine",
+      "name": "OpenRefine",
+      "domains": [
+        "data"
+      ],
+      "phases": [
+        "discover",
+        "build",
+        "test"
+      ],
+      "why": "Nettoyer et harmoniser des fichiers de données.",
+      "how": "Serveur local avec interface navigateur ; facettes, transformations et regroupements assistent le nettoyage.",
+      "mode": "local",
+      "license": "BSD-3-Clause",
+      "source": "https://openrefine.org/docs/manual/transforming"
+    },
+    {
+      "id": "penpot",
+      "name": "Penpot",
+      "domains": [
+        "product",
+        "design"
+      ],
+      "phases": [
+        "design",
+        "test"
+      ],
+      "why": "Créer des écrans, prototypes et composants d’interface.",
+      "how": "Interface web ; ton instance locale est servie par plusieurs conteneurs Docker.",
+      "mode": "local",
+      "license": "MPL-2.0",
+      "source": "https://help.penpot.app/technical-guide/getting-started/docker/"
+    },
+    {
+      "id": "pomotroid",
+      "name": "Pomotroid",
+      "domains": [
+        "project"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Structurer les sessions de concentration.",
+      "how": "Minuteur local de travail et de pauses.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/Splode/pomotroid"
+    },
+    {
+      "id": "power-automate",
+      "name": "Power Automate",
+      "domains": [
+        "ops",
+        "project"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Automatiser des tâches répétitives.",
+      "how": "Flux sur le poste ou services cloud selon les connecteurs et droits disponibles.",
+      "mode": "hybrid",
+      "license": "Propriétaire ; conditions selon usage",
+      "source": "https://learn.microsoft.com/power-automate/"
+    },
+    {
+      "id": "power-bi-desktop",
+      "name": "Power BI Desktop",
+      "domains": [
+        "data",
+        "product"
+      ],
+      "phases": [
+        "measure"
+      ],
+      "why": "Créer des rapports et visualisations.",
+      "how": "Application de modélisation et de rapports ; la publication et le partage en ligne sont des capacités distinctes.",
+      "mode": "hybrid",
+      "license": "Propriétaire ; Desktop gratuit",
+      "source": "https://learn.microsoft.com/power-bi/"
+    },
+    {
+      "id": "powershell",
+      "name": "PowerShell",
+      "domains": [
+        "dev",
+        "ops"
+      ],
+      "phases": [
+        "build",
+        "deploy",
+        "operate"
+      ],
+      "why": "Administrer et automatiser Windows.",
+      "how": "Interpréteur de commandes et scripts ; les commandes de modification exigent une validation humaine dans ton workflow.",
+      "mode": "local",
+      "license": "Selon Windows PowerShell / PowerShell",
+      "source": "https://learn.microsoft.com/powershell/"
+    },
+    {
+      "id": "powertoys",
+      "name": "PowerToys",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Faciliter l’organisation et les interactions Windows.",
+      "how": "Collection d’utilitaires, notamment fenêtres, recherche et manipulation de fichiers.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://learn.microsoft.com/windows/powertoys/"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "domains": [
+        "dev",
+        "data",
+        "ia"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "measure"
+      ],
+      "why": "Développer des traitements et services.",
+      "how": "Interpréteur et bibliothèques ; les environnements virtuels isolent les dépendances des projets.",
+      "mode": "local",
+      "license": "PSF et licences des bibliothèques",
+      "source": "https://docs.python.org/3/"
+    },
+    {
+      "id": "sublime-text",
+      "name": "Sublime Text",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build"
+      ],
+      "why": "Éditer rapidement des fichiers texte et du code.",
+      "how": "Éditeur local ; ses fonctionnalités et conditions diffèrent d’un IDE complet.",
+      "mode": "local",
+      "license": "Propriétaire, licence commerciale",
+      "source": "https://www.sublimetext.com/"
+    },
+    {
+      "id": "uv",
+      "name": "uv",
+      "domains": [
+        "dev",
+        "data"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Gérer Python et les dépendances de façon reproductible.",
+      "how": "Crée des environnements et résout les dépendances d’un projet avec un fichier de verrouillage.",
+      "mode": "local",
+      "license": "MIT / Apache-2.0",
+      "source": "https://docs.astral.sh/uv/"
+    },
+    {
+      "id": "visual-studio-code",
+      "name": "Visual Studio Code",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Écrire, explorer et déboguer ton code.",
+      "how": "Éditeur extensible avec terminal intégré ; les extensions ajoutent les langages, tests et outils IA.",
+      "mode": "local",
+      "license": "Distribution Microsoft ; Code-OSS MIT",
+      "source": "https://code.visualstudio.com/docs"
+    },
+    {
+      "id": "wsl",
+      "name": "WSL",
+      "domains": [
+        "ops",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "deploy",
+        "operate"
+      ],
+      "why": "Exécuter un environnement Linux sous Windows.",
+      "how": "Les distributions Linux et leurs paquets constituent un périmètre séparé de l’inventaire Windows.",
+      "mode": "local",
+      "license": "Licences par composant et distribution",
+      "source": "https://learn.microsoft.com/windows/wsl/"
+    },
+    {
+      "id": "zcode",
+      "name": "ZCode",
+      "domains": [
+        "ia",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Environnement de programmation assisté par IA.",
+      "how": "Le fournisseur de modèles et les permissions doivent être vérifiés dans sa configuration.",
+      "mode": "unknown",
+      "license": "À vérifier",
+      "source": "https://zcode.ai/"
+    }
+  ],
+  "relations": [
+    {
+      "source": "agent-ia-local",
+      "target": "opencode",
+      "label": "ouvre",
+      "kind": "reference"
+    },
+    {
+      "source": "opencode",
+      "target": "ollama",
+      "label": "utilise un modèle servi par",
+      "kind": "reference"
+    },
+    {
+      "source": "open-webui",
+      "target": "ollama",
+      "label": "peut interroger",
+      "kind": "suggested"
+    },
+    {
+      "source": "docker-desktop",
+      "target": "penpot",
+      "label": "héberge",
+      "kind": "reference"
+    },
+    {
+      "source": "docker-desktop",
+      "target": "dagster",
+      "label": "héberge le pipeline de données",
+      "kind": "reference"
+    },
+    {
+      "source": "dagster",
+      "target": "python",
+      "label": "exécute les scripts",
+      "kind": "reference"
+    },
+    {
+      "source": "dbeaver",
+      "target": "duckdb",
+      "label": "utilise via JDBC",
+      "kind": "reference"
+    },
+    {
+      "source": "python",
+      "target": "duckdb",
+      "label": "échange via Parquet",
+      "kind": "suggested"
+    },
+    {
+      "source": "openrefine",
+      "target": "dbeaver",
+      "label": "préparer puis explorer",
+      "kind": "suggested"
+    },
+    {
+      "source": "penpot",
+      "target": "visual-studio-code",
+      "label": "concevoir puis développer",
+      "kind": "suggested"
+    },
+    {
+      "source": "bruno",
+      "target": "visual-studio-code",
+      "label": "tester les API développées",
+      "kind": "suggested"
+    },
+    {
+      "source": "github-desktop",
+      "target": "git",
+      "label": "pilote",
+      "kind": "reference"
+    },
+    {
+      "source": "kopiaui",
+      "target": "keepassxc",
+      "label": "mot de passe conservé dans",
+      "kind": "reference"
+    },
+    {
+      "source": "kopiaui",
+      "target": "git",
+      "label": "complète la protection",
+      "kind": "suggested"
+    },
+    {
+      "source": "canva",
+      "target": "notion",
+      "label": "contenus puis planification",
+      "kind": "suggested"
+    }
+  ],
+  "hardware": {
+    "profile": "Station Windows de développement et de création",
+    "memory": "16 Go de mémoire",
+    "processor": "Processeur de bureau multicœur",
+    "graphics": "Graphiques intégrés",
+    "storage": "Stockage SSD",
+    "note": "Profil volontairement général : aucun identifiant matériel, modèle exact, numéro de série ou détail réseau publié."
+  }
+}
