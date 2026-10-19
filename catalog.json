@@ -1,0 +1,2666 @@
+{
+  "version": 4,
+  "updated": "2026-10-19",
+  "title": "Référentiel de compétences et d’outils",
+  "scope": "Catalogue extensible couvrant dix domaines ; non exhaustif du marché. Hors sélection publique ne signifie pas absent d’un PC.",
+  "tools": [
+    {
+      "id": "adobe-illustrator",
+      "name": "Adobe Illustrator",
+      "domains": [
+        "design",
+        "marketing"
+      ],
+      "phases": [
+        "design",
+        "deploy"
+      ],
+      "why": "Produire des illustrations vectorielles.",
+      "how": "Édition de formes, tracés et typographie puis export vers des formats graphiques.",
+      "mode": "hybrid",
+      "license": "Propriétaire",
+      "source": "https://www.adobe.com/products/illustrator.html",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins et références",
+      "outputs": "Maquettes et spécifications",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "agent-ia-local",
+      "name": "Agent IA local",
+      "domains": [
+        "ia",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Travailler avec OpenCode depuis tes projets.",
+      "how": "Raccourci local qui ouvre OpenCode. Les permissions sont définies dans la configuration OpenCode.",
+      "mode": "local",
+      "license": "Selon OpenCode et le modèle",
+      "source": "https://opencode.ai/v2/docs/agents/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "aida64",
+      "name": "AIDA64",
+      "domains": [
+        "hardware"
+      ],
+      "phases": [
+        "discover",
+        "operate"
+      ],
+      "why": "Diagnostiquer et mesurer le matériel.",
+      "how": "Rapports et tests matériels ; certaines fonctionnalités dépendent de la licence.",
+      "mode": "local",
+      "license": "Propriétaire, payant / essai",
+      "source": "https://www.aida64.com/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Tester les API dans une interface graphique.",
+      "how": "Organise requêtes, environnements et tests en collections locales versionnables.",
+      "mode": "local",
+      "license": "Socle MIT ; fonctions payantes possibles",
+      "source": "https://www.usebruno.com/product/api-client",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "domains": [
+        "design",
+        "marketing"
+      ],
+      "phases": [
+        "design",
+        "deploy"
+      ],
+      "why": "Créer des supports visuels et contenus de communication.",
+      "how": "Éditeur connecté avec modèles et ressources ; certaines fonctions dépendent d’un abonnement.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://www.canva.com/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins et références",
+      "outputs": "Maquettes et spécifications",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "domains": [
+        "ia",
+        "product",
+        "dev",
+        "data"
+      ],
+      "phases": [
+        "discover",
+        "plan",
+        "build",
+        "test",
+        "measure"
+      ],
+      "why": "Clarifier une idée, analyser et assister le travail.",
+      "how": "Application cliente : les échanges usuels s’appuient sur un service en ligne. Les accès locaux dépendent des outils autorisés.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://help.openai.com/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "domains": [
+        "ia",
+        "dev",
+        "product"
+      ],
+      "phases": [
+        "discover",
+        "plan",
+        "build",
+        "test"
+      ],
+      "why": "Assistance à la rédaction, au raisonnement et au développement.",
+      "how": "Client du service Claude ; les connexions et capacités dépendent du compte.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://www.anthropic.com/claude",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "copilot",
+      "name": "Copilot",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "discover",
+        "build"
+      ],
+      "why": "Assistant et accès aux services Copilot.",
+      "how": "L’entrée installée ne prouve pas la présence de GitHub Copilot dans VS Code.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://www.microsoft.com/microsoft-copilot",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "cpu-z",
+      "name": "CPU-Z",
+      "domains": [
+        "hardware"
+      ],
+      "phases": [
+        "discover",
+        "operate"
+      ],
+      "why": "Identifier le processeur, la mémoire et la carte mère.",
+      "how": "Lit les informations matérielles ; ses résultats ne sont pas un réglage automatique de performances.",
+      "mode": "local",
+      "license": "Propriétaire, freeware",
+      "source": "https://www.cpuid.com/softwares/cpu-z.html",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "dagster",
+      "name": "Dagster",
+      "domains": [
+        "data",
+        "ops"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "operate"
+      ],
+      "why": "Décrire et orchestrer des traitements de données.",
+      "how": "Les assets lancent tes fonctions ou scripts ; les contrôles valident les résultats et les runs en gardent la trace.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://docs.dagster.io/",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "davinci-resolve",
+      "name": "DaVinci Resolve",
+      "domains": [
+        "design",
+        "marketing"
+      ],
+      "phases": [
+        "design",
+        "deploy"
+      ],
+      "why": "Monter et produire des contenus vidéo et audio.",
+      "how": "Chaîne de montage, étalonnage et son ; les utilitaires Blackmagic sont distingués dans les preuves d’installation.",
+      "mode": "local",
+      "license": "Propriétaire ; éditions gratuite et Studio",
+      "source": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins et références",
+      "outputs": "Maquettes et spécifications",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "dbeaver",
+      "name": "DBeaver",
+      "domains": [
+        "data",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "measure"
+      ],
+      "why": "Explorer les bases et exécuter des requêtes SQL.",
+      "how": "Se connecte avec des pilotes ; DuckDB peut lire tes Parquet sans serveur séparé.",
+      "mode": "local",
+      "license": "Community Apache-2.0",
+      "source": "https://dbeaver.io/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "docker-desktop",
+      "name": "Docker Desktop",
+      "domains": [
+        "ops",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "deploy",
+        "operate"
+      ],
+      "why": "Exécuter et piloter les services en conteneurs.",
+      "how": "Docker Compose décrit des services ; les volumes conservent leurs données au-delà des conteneurs.",
+      "mode": "local",
+      "license": "Propriétaire ; gratuité sous conditions",
+      "source": "https://docs.docker.com/desktop/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "draw-io",
+      "name": "draw.io",
+      "domains": [
+        "product",
+        "design",
+        "ops"
+      ],
+      "phases": [
+        "discover",
+        "design"
+      ],
+      "why": "Dessiner des architectures, flux et processus.",
+      "how": "Éditeur de diagrammes ; les fichiers peuvent être conservés et exportés localement.",
+      "mode": "local",
+      "license": "Apache-2.0 pour le dépôt desktop",
+      "source": "https://www.drawio.com/docs/manual/editor/offline/",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "duckdb",
+      "name": "DuckDB",
+      "domains": [
+        "data"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "measure"
+      ],
+      "why": "Analyser des fichiers avec SQL, sans serveur dédié.",
+      "how": "Moteur embarqué ; un pilote JDBC permet son utilisation dans DBeaver.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://duckdb.org/docs/stable/",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "discover",
+        "build"
+      ],
+      "why": "Assistant généraliste Google.",
+      "how": "Client ou application web d’un service distant.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://gemini.google.com/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "gemini-notebook",
+      "name": "Gemini Notebook",
+      "domains": [
+        "ia",
+        "data"
+      ],
+      "phases": [
+        "discover",
+        "measure"
+      ],
+      "why": "Accéder à l’outil web enregistré sous ce nom.",
+      "how": "Application web installée : sa cible doit être vérifiée avant de l’assimiler à NotebookLM.",
+      "mode": "cloud",
+      "license": "À vérifier",
+      "source": "https://ai.google/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "deploy"
+      ],
+      "why": "Conserver l’historique et collaborer sur le code.",
+      "how": "Git versionne les fichiers du dépôt ; les fichiers non suivis ne sont pas une sauvegarde distante.",
+      "mode": "local",
+      "license": "GPL-2.0",
+      "source": "https://git-scm.com/doc",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "github-desktop",
+      "name": "GitHub Desktop",
+      "domains": [
+        "dev",
+        "project"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Suivre les changements du code visuellement.",
+      "how": "Interface Git locale ; synchronise avec un dépôt distant quand tu le demandes.",
+      "mode": "hybrid",
+      "license": "MIT",
+      "source": "https://docs.github.com/en/desktop",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "google-ai-studio",
+      "name": "Google AI Studio",
+      "domains": [
+        "ia",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Expérimenter des modèles et leurs API.",
+      "how": "Interface en ligne pour tester des instructions et préparer des appels API.",
+      "mode": "cloud",
+      "license": "Service propriétaire ; quotas à vérifier",
+      "source": "https://aistudio.google.com/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "google-chrome",
+      "name": "Google Chrome",
+      "domains": [
+        "network"
+      ],
+      "phases": [
+        "discover",
+        "test",
+        "operate"
+      ],
+      "why": "Naviguer et tester les interfaces web.",
+      "how": "Navigateur local connecté aux services visités ; outils de développement intégrés.",
+      "mode": "hybrid",
+      "license": "Distribution propriétaire ; Chromium open source",
+      "source": "https://www.google.com/chrome/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "hugging-face",
+      "name": "Hugging Face",
+      "domains": [
+        "ia",
+        "data"
+      ],
+      "phases": [
+        "discover",
+        "build"
+      ],
+      "why": "Trouver des modèles, jeux de données et démonstrations.",
+      "how": "Plateforme de ressources ; télécharger des poids ne rend pas automatiquement leur licence libre.",
+      "mode": "cloud",
+      "license": "Licences propres à chaque ressource",
+      "source": "https://huggingface.co/docs",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "keepassxc",
+      "name": "KeePassXC",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "build",
+        "deploy",
+        "operate"
+      ],
+      "why": "Conserver des secrets dans un coffre chiffré local.",
+      "how": "Une phrase de passe ouvre le fichier KDBX ; le coffre et sa sauvegarde doivent rester récupérables.",
+      "mode": "local",
+      "license": "GPL-2.0 / GPL-3.0",
+      "source": "https://keepassxc.org/docs/",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "kopiaui",
+      "name": "KopiaUI",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Conserver et restaurer des versions de fichiers.",
+      "how": "Snapshots chiffrés vers un dépôt ; la planification nécessite le fonctionnement de Kopia.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://kopia.io/docs/",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Services et événements",
+      "outputs": "Suivi et opérations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "microsoft-edge",
+      "name": "Microsoft Edge",
+      "domains": [
+        "network"
+      ],
+      "phases": [
+        "discover",
+        "test",
+        "operate"
+      ],
+      "why": "Naviguer et tester les applications web.",
+      "how": "Navigateur Windows ; les données et services en ligne dépendent du compte et des paramètres.",
+      "mode": "hybrid",
+      "license": "Propriétaire",
+      "source": "https://www.microsoft.com/edge",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "microsoft-to-do",
+      "name": "Microsoft To Do",
+      "domains": [
+        "project"
+      ],
+      "phases": [
+        "plan",
+        "operate"
+      ],
+      "why": "Organiser des tâches personnelles.",
+      "how": "Listes et rappels synchronisés selon le compte.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://to-do.office.com/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Objectifs et contraintes",
+      "outputs": "Plan et priorités",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "node-js",
+      "name": "Node.js",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Exécuter JavaScript et les outils de développement.",
+      "how": "Runtime local accompagné de npm ; les dépendances appartiennent aux projets ou à l’installation globale.",
+      "mode": "local",
+      "license": "MIT et dépendances",
+      "source": "https://nodejs.org/en/learn",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "domains": [
+        "project",
+        "product"
+      ],
+      "phases": [
+        "discover",
+        "plan",
+        "operate"
+      ],
+      "why": "Structurer notes, tâches et documentation.",
+      "how": "Pages et bases de données d’un service synchronisé ; l’installation locale ne garantit pas une autonomie hors ligne complète.",
+      "mode": "cloud",
+      "license": "Propriétaire",
+      "source": "https://www.notion.com/help",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "operate"
+      ],
+      "why": "Exécuter des modèles de langage sur ta machine.",
+      "how": "Charge un modèle et expose une API locale ; la vitesse dépend du matériel et du contexte.",
+      "mode": "local",
+      "license": "Moteur MIT ; modèles : licences propres",
+      "source": "https://docs.ollama.com/",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "onenote",
+      "name": "OneNote",
+      "domains": [
+        "project"
+      ],
+      "phases": [
+        "discover",
+        "plan"
+      ],
+      "why": "Conserver des notes et de la documentation.",
+      "how": "Carnets et pages ; synchronisation et capacités hors ligne selon la version.",
+      "mode": "hybrid",
+      "license": "Propriétaire",
+      "source": "https://www.onenote.com/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "discover",
+        "build",
+        "measure"
+      ],
+      "why": "Dialoguer avec des modèles via une interface web.",
+      "how": "Interface pouvant se connecter à Ollama ou à des fournisseurs externes ; un raccourci seul ne prouve pas que le serveur tourne.",
+      "mode": "hybrid",
+      "license": "Vérifier les conditions de la version installée",
+      "source": "https://docs.openwebui.com/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "domains": [
+        "ia",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Assister la programmation avec un agent.",
+      "how": "Client d’agent qui peut utiliser un fournisseur local ou distant. Le modèle configuré décide du lieu d’inférence.",
+      "mode": "hybrid",
+      "license": "Vérifier la version installée",
+      "source": "https://opencode.ai/v2/docs/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "openrefine",
+      "name": "OpenRefine",
+      "domains": [
+        "data"
+      ],
+      "phases": [
+        "discover",
+        "build",
+        "test"
+      ],
+      "why": "Nettoyer et harmoniser des fichiers de données.",
+      "how": "Serveur local avec interface navigateur ; facettes, transformations et regroupements assistent le nettoyage.",
+      "mode": "local",
+      "license": "BSD-3-Clause",
+      "source": "https://openrefine.org/docs/manual/transforming",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins ou données sources",
+      "outputs": "Hypothèses et observations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "penpot",
+      "name": "Penpot",
+      "domains": [
+        "product",
+        "design"
+      ],
+      "phases": [
+        "design",
+        "test"
+      ],
+      "why": "Créer des écrans, prototypes et composants d’interface.",
+      "how": "Interface web ; ton instance locale est servie par plusieurs conteneurs Docker.",
+      "mode": "local",
+      "license": "MPL-2.0",
+      "source": "https://help.penpot.app/technical-guide/getting-started/docker/",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Besoins et références",
+      "outputs": "Maquettes et spécifications",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "pomotroid",
+      "name": "Pomotroid",
+      "domains": [
+        "project"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Structurer les sessions de concentration.",
+      "how": "Minuteur local de travail et de pauses.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/Splode/pomotroid",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Services et événements",
+      "outputs": "Suivi et opérations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "power-automate",
+      "name": "Power Automate",
+      "domains": [
+        "ops",
+        "project"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Automatiser des tâches répétitives.",
+      "how": "Flux sur le poste ou services cloud selon les connecteurs et droits disponibles.",
+      "mode": "hybrid",
+      "license": "Propriétaire ; conditions selon usage",
+      "source": "https://learn.microsoft.com/power-automate/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Services et événements",
+      "outputs": "Suivi et opérations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "power-bi-desktop",
+      "name": "Power BI Desktop",
+      "domains": [
+        "data",
+        "product"
+      ],
+      "phases": [
+        "measure"
+      ],
+      "why": "Créer des rapports et visualisations.",
+      "how": "Application de modélisation et de rapports ; la publication et le partage en ligne sont des capacités distinctes.",
+      "mode": "hybrid",
+      "license": "Propriétaire ; Desktop gratuit",
+      "source": "https://learn.microsoft.com/power-bi/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Métriques et retours",
+      "outputs": "Constats et pistes d’amélioration",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "powershell",
+      "name": "PowerShell",
+      "domains": [
+        "dev",
+        "ops"
+      ],
+      "phases": [
+        "build",
+        "deploy",
+        "operate"
+      ],
+      "why": "Administrer et automatiser Windows.",
+      "how": "Interpréteur de commandes et scripts ; les commandes de modification exigent une validation humaine dans ton workflow.",
+      "mode": "local",
+      "license": "Selon Windows PowerShell / PowerShell",
+      "source": "https://learn.microsoft.com/powershell/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "powertoys",
+      "name": "PowerToys",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Faciliter l’organisation et les interactions Windows.",
+      "how": "Collection d’utilitaires, notamment fenêtres, recherche et manipulation de fichiers.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://learn.microsoft.com/windows/powertoys/",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Services et événements",
+      "outputs": "Suivi et opérations",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "domains": [
+        "dev",
+        "data",
+        "ia"
+      ],
+      "phases": [
+        "build",
+        "test",
+        "measure"
+      ],
+      "why": "Développer des traitements et services.",
+      "how": "Interpréteur et bibliothèques ; les environnements virtuels isolent les dépendances des projets.",
+      "mode": "local",
+      "license": "PSF et licences des bibliothèques",
+      "source": "https://docs.python.org/3/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "sublime-text",
+      "name": "Sublime Text",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build"
+      ],
+      "why": "Éditer rapidement des fichiers texte et du code.",
+      "how": "Éditeur local ; ses fonctionnalités et conditions diffèrent d’un IDE complet.",
+      "mode": "local",
+      "license": "Propriétaire, licence commerciale",
+      "source": "https://www.sublimetext.com/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "uv",
+      "name": "uv",
+      "domains": [
+        "dev",
+        "data"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Gérer Python et les dépendances de façon reproductible.",
+      "how": "Crée des environnements et résout les dépendances d’un projet avec un fichier de verrouillage.",
+      "mode": "local",
+      "license": "MIT / Apache-2.0",
+      "source": "https://docs.astral.sh/uv/",
+      "open_source": true,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "visual-studio-code",
+      "name": "Visual Studio Code",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Écrire, explorer et déboguer ton code.",
+      "how": "Éditeur extensible avec terminal intégré ; les extensions ajoutent les langages, tests et outils IA.",
+      "mode": "local",
+      "license": "Distribution Microsoft ; Code-OSS MIT",
+      "source": "https://code.visualstudio.com/docs",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "wsl",
+      "name": "WSL",
+      "domains": [
+        "ops",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "deploy",
+        "operate"
+      ],
+      "why": "Exécuter un environnement Linux sous Windows.",
+      "how": "Les distributions Linux et leurs paquets constituent un périmètre séparé de l’inventaire Windows.",
+      "mode": "local",
+      "license": "Licences par composant et distribution",
+      "source": "https://learn.microsoft.com/windows/wsl/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "zcode",
+      "name": "ZCode",
+      "domains": [
+        "ia",
+        "dev"
+      ],
+      "phases": [
+        "build",
+        "test"
+      ],
+      "why": "Environnement de programmation assisté par IA.",
+      "how": "Le fournisseur de modèles et les permissions doivent être vérifiés dans sa configuration.",
+      "mode": "unknown",
+      "license": "À vérifier",
+      "source": "https://zcode.ai/",
+      "open_source": false,
+      "license_verified": false,
+      "reference_only": false,
+      "selected_public": true,
+      "inputs": "Sources et spécifications",
+      "outputs": "Code ou données transformées",
+      "first_step": "Consulter la documentation officielle et réaliser un essai sur un projet de démonstration.",
+      "pitfall": "Présence, configuration et bon fonctionnement doivent être vérifiés séparément.",
+      "explanation": "Flux pédagogique général, à préciser selon le projet."
+    },
+    {
+      "id": "openproject",
+      "name": "OpenProject",
+      "domains": [
+        "project"
+      ],
+      "phases": [
+        "plan"
+      ],
+      "why": "Planifier le travail et suivre les dépendances.",
+      "how": "Projets, lots de travail, calendrier et responsabilités dans une application web.",
+      "mode": "local",
+      "license": "GPL-3.0",
+      "source": "https://github.com/opf/openproject",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "GPL-3.0",
+        "source": "https://github.com/opf/openproject/blob/dev/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Objectifs, tâches, dates",
+      "outputs": "Plan partagé et suivi",
+      "first_step": "Créer un projet pilote avec trois tâches liées.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "plane",
+      "name": "Plane",
+      "domains": [
+        "project"
+      ],
+      "phases": [
+        "plan"
+      ],
+      "why": "Organiser un backlog et des cycles produit.",
+      "how": "Tickets, cycles et vues structurent les priorités.",
+      "mode": "local",
+      "license": "AGPL-3.0",
+      "source": "https://github.com/makeplane/plane",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "AGPL-3.0",
+        "source": "https://github.com/makeplane/plane/blob/preview/LICENSE.txt",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Demandes et priorités",
+      "outputs": "Backlog et cycles",
+      "first_step": "Décrire un besoin et son critère d’acceptation.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "bookstack",
+      "name": "BookStack",
+      "domains": [
+        "project"
+      ],
+      "phases": [
+        "discover"
+      ],
+      "why": "Documenter durablement les connaissances.",
+      "how": "Des livres, chapitres et pages organisent une base documentaire.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/BookStackApp/BookStack",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MIT",
+        "source": "https://github.com/BookStackApp/BookStack/blob/development/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Notes et procédures",
+      "outputs": "Documentation navigable",
+      "first_step": "Rédiger une procédure de reprise d’un projet.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "joplin",
+      "name": "Joplin",
+      "domains": [
+        "project"
+      ],
+      "phases": [
+        "discover"
+      ],
+      "why": "Prendre des notes et conserver des connaissances.",
+      "how": "Carnets Markdown et synchronisation optionnelle ; vérifier le chiffrement configuré.",
+      "mode": "local",
+      "license": "NOASSERTION",
+      "source": "https://github.com/laurent22/joplin",
+      "open_source": false,
+      "license_verified": false,
+      "license_proof": {
+        "spdx": "NOASSERTION",
+        "source": "https://github.com/laurent22/joplin/blob/dev/LICENSE",
+        "checked": "2026-10-19",
+        "verified": false
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Notes et documents",
+      "outputs": "Carnets organisés",
+      "first_step": "Créer un carnet de décisions techniques.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "excalidraw",
+      "name": "Excalidraw",
+      "domains": [
+        "design"
+      ],
+      "phases": [
+        "design"
+      ],
+      "why": "Esquisser rapidement des architectures et parcours.",
+      "how": "Un tableau de dessin produit des schémas éditables.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/excalidraw/excalidraw",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MIT",
+        "source": "https://github.com/excalidraw/excalidraw/blob/master/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Idées, formes et liens",
+      "outputs": "Diagramme et export",
+      "first_step": "Dessiner les trois composants principaux du projet.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "krita",
+      "name": "Krita",
+      "domains": [
+        "design"
+      ],
+      "phases": [
+        "design"
+      ],
+      "why": "Créer des illustrations et peindre numériquement.",
+      "how": "Calques, brosses et outils de dessin sur un canevas.",
+      "mode": "local",
+      "license": "GPL-3.0",
+      "source": "https://github.com/KDE/krita",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "GPL-3.0",
+        "source": "https://github.com/KDE/krita/blob/master/COPYING",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Croquis et ressources graphiques",
+      "outputs": "Illustrations raster",
+      "first_step": "Créer un visuel avec trois calques.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "domains": [
+        "design"
+      ],
+      "phases": [
+        "design"
+      ],
+      "why": "Créer des objets, scènes et animations 3D.",
+      "how": "Modélisation, matériaux, éclairage et rendu dans un même environnement.",
+      "mode": "local",
+      "license": "NOASSERTION",
+      "source": "https://github.com/blender/blender",
+      "open_source": false,
+      "license_verified": false,
+      "license_proof": {
+        "spdx": "NOASSERTION",
+        "source": "https://github.com/blender/blender/blob/main/COPYING",
+        "checked": "2026-10-19",
+        "verified": false
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Géométrie et textures",
+      "outputs": "Scènes, rendus et animations",
+      "first_step": "Modéliser un objet simple avant un rendu léger.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "matomo",
+      "name": "Matomo",
+      "domains": [
+        "marketing"
+      ],
+      "phases": [
+        "measure"
+      ],
+      "why": "Mesurer l’usage d’un site avec une solution auto-hébergeable.",
+      "how": "Une collecte configurée alimente des rapports ; consentement et données doivent être étudiés.",
+      "mode": "local",
+      "license": "GPL-3.0",
+      "source": "https://github.com/matomo-org/matomo",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "GPL-3.0",
+        "source": "https://github.com/matomo-org/matomo/blob/6.x-dev/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Événements de navigation autorisés",
+      "outputs": "Rapports d’audience",
+      "first_step": "Définir les événements utiles avant toute collecte.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "umami",
+      "name": "Umami",
+      "domains": [
+        "marketing"
+      ],
+      "phases": [
+        "measure"
+      ],
+      "why": "Suivre une audience avec un outil léger.",
+      "how": "Le script de mesure envoie des événements à une instance et sa base.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/umami-software/umami",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MIT",
+        "source": "https://github.com/umami-software/umami/blob/master/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Événements de consultation",
+      "outputs": "Tableaux de suivi",
+      "first_step": "Tester sur un site de démonstration et vérifier la collecte.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "mautic",
+      "name": "Mautic",
+      "domains": [
+        "marketing"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Orchestrer des campagnes et parcours marketing.",
+      "how": "Contacts, segments et règles déclenchent des campagnes configurées.",
+      "mode": "local",
+      "license": "NOASSERTION",
+      "source": "https://github.com/mautic/mautic",
+      "open_source": false,
+      "license_verified": false,
+      "license_proof": {
+        "spdx": "NOASSERTION",
+        "source": "https://github.com/mautic/mautic/blob/7.x/LICENSE.txt",
+        "checked": "2026-10-19",
+        "verified": false
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Contacts autorisés et contenus",
+      "outputs": "Campagnes et mesures",
+      "first_step": "Tester un segment fictif sans envoyer de message réel.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "listmonk",
+      "name": "Listmonk",
+      "domains": [
+        "marketing"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Gérer des listes et campagnes de newsletter.",
+      "how": "Une application et une base gèrent abonnés et envois via un transport mail.",
+      "mode": "local",
+      "license": "AGPL-3.0",
+      "source": "https://github.com/knadh/listmonk",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "AGPL-3.0",
+        "source": "https://github.com/knadh/listmonk/blob/master/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Abonnés consentants et contenu",
+      "outputs": "Campagnes et statistiques",
+      "first_step": "Créer une campagne de test sans destinataires réels.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "gitea",
+      "name": "Gitea",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build"
+      ],
+      "why": "Héberger des dépôts Git et collaborer sur le code.",
+      "how": "Une forge gère dépôts, tickets et demandes de changement.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/go-gitea/gitea",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MIT",
+        "source": "https://github.com/go-gitea/gitea/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Code versionné et discussions",
+      "outputs": "Historique et revues",
+      "first_step": "Créer un dépôt de test et une demande de changement.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "vscodium",
+      "name": "VSCodium",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build"
+      ],
+      "why": "Disposer d’une distribution communautaire de l’éditeur Code.",
+      "how": "Compile la base ouverte de Code ; les extensions et services gardent leurs propres conditions.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/VSCodium/vscodium",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MIT",
+        "source": "https://github.com/VSCodium/vscodium/blob/master/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Fichiers de projet",
+      "outputs": "Code édité et diagnostics",
+      "first_step": "Ouvrir un projet et vérifier ses extensions nécessaires.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "fastapi",
+      "name": "FastAPI",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "build"
+      ],
+      "why": "Construire une API Python structurée.",
+      "how": "Des routes typées valident les entrées et exposent une documentation OpenAPI.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/fastapi/fastapi",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MIT",
+        "source": "https://github.com/fastapi/fastapi/blob/master/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Requêtes HTTP et modèles de données",
+      "outputs": "Réponses JSON et contrat API",
+      "first_step": "Créer une route de santé sans donnée privée.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "pytest",
+      "name": "pytest",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "test"
+      ],
+      "why": "Automatiser les tests Python.",
+      "how": "Des fonctions de test et fixtures vérifient des comportements attendus.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/pytest-dev/pytest",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MIT",
+        "source": "https://github.com/pytest-dev/pytest/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Code et cas de test",
+      "outputs": "Résultats et erreurs reproductibles",
+      "first_step": "Tester une fonction avec un cas valide et un cas invalide.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright",
+      "domains": [
+        "dev"
+      ],
+      "phases": [
+        "test"
+      ],
+      "why": "Tester les parcours d’une application web.",
+      "how": "Pilote des navigateurs et vérifie les éléments visibles.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://github.com/microsoft/playwright",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "Apache-2.0",
+        "source": "https://github.com/microsoft/playwright/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Application et scénarios",
+      "outputs": "Résultats et traces de tests",
+      "first_step": "Vérifier la connexion et un parcours sans effet externe.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "polars",
+      "name": "Polars",
+      "domains": [
+        "data"
+      ],
+      "phases": [
+        "build"
+      ],
+      "why": "Transformer des données tabulaires efficacement.",
+      "how": "Un moteur de DataFrames exécute des expressions et plans de calcul.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/pola-rs/polars",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MIT",
+        "source": "https://github.com/pola-rs/polars/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Fichiers tabulaires ou DataFrames",
+      "outputs": "Tables transformées",
+      "first_step": "Lire un petit Parquet et agréger une colonne.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "dbt-core",
+      "name": "dbt Core",
+      "domains": [
+        "data"
+      ],
+      "phases": [
+        "build"
+      ],
+      "why": "Versionner les transformations analytiques SQL.",
+      "how": "Des modèles SQL et tests construisent des relations dans un moteur compatible.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://github.com/dbt-labs/dbt-core",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "Apache-2.0",
+        "source": "https://github.com/dbt-labs/dbt/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Données accessibles et modèles SQL",
+      "outputs": "Tables, vues et documentation",
+      "first_step": "Définir un modèle et un test d’unicité.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "jupyterlab",
+      "name": "JupyterLab",
+      "domains": [
+        "data"
+      ],
+      "phases": [
+        "discover"
+      ],
+      "why": "Explorer des données dans des notebooks.",
+      "how": "Un navigateur organise cellules de code, résultats et texte explicatif.",
+      "mode": "local",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/jupyterlab/jupyterlab",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "BSD-3-Clause",
+        "source": "https://github.com/jupyterlab/jupyterlab/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Données et code Python ou autres noyaux",
+      "outputs": "Notebook reproductible",
+      "first_step": "Créer un notebook avec source, calcul et conclusion.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "apache-superset",
+      "name": "Apache Superset",
+      "domains": [
+        "data"
+      ],
+      "phases": [
+        "measure"
+      ],
+      "why": "Explorer des données et construire des tableaux de bord.",
+      "how": "Une interface interroge des moteurs SQL et compose des graphiques.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://github.com/apache/superset",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "Apache-2.0",
+        "source": "https://github.com/apache/superset/blob/master/LICENSE.txt",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Connexions SQL et métriques",
+      "outputs": "Dashboards et analyses",
+      "first_step": "Créer un graphique sur un jeu de démonstration.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "metabase",
+      "name": "Metabase",
+      "domains": [
+        "data"
+      ],
+      "phases": [
+        "measure"
+      ],
+      "why": "Rendre l’analyse accessible par questions et tableaux de bord.",
+      "how": "Les requêtes visuelles ou SQL alimentent des vues ; l’édition communautaire a ses conditions propres.",
+      "mode": "local",
+      "license": "NOASSERTION",
+      "source": "https://github.com/metabase/metabase",
+      "open_source": false,
+      "license_verified": false,
+      "license_proof": {
+        "spdx": "NOASSERTION",
+        "source": "https://github.com/metabase/metabase/blob/master/LICENSE.txt",
+        "checked": "2026-10-19",
+        "verified": false
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Bases de données et questions",
+      "outputs": "Graphiques et tableaux de bord",
+      "first_step": "Tester une question simple sur des données non sensibles.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "qdrant",
+      "name": "Qdrant",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "build"
+      ],
+      "why": "Rechercher des éléments par similarité vectorielle.",
+      "how": "Indexe des vecteurs et métadonnées ; le modèle d’embeddings est un composant distinct.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://github.com/qdrant/qdrant",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "Apache-2.0",
+        "source": "https://github.com/qdrant/qdrant/blob/master/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Vecteurs et métadonnées",
+      "outputs": "Résultats voisins filtrés",
+      "first_step": "Indexer quelques documents publics avec une provenance.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "llama-cpp",
+      "name": "llama.cpp",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Exécuter des modèles de langage sur différents matériels.",
+      "how": "Charge des poids compatibles et fournit une inférence locale.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/ggml-org/llama.cpp",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MIT",
+        "source": "https://github.com/ggml-org/llama.cpp/blob/master/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Poids autorisés et messages",
+      "outputs": "Texte généré",
+      "first_step": "Choisir un petit modèle compatible et mesurer la mémoire.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "haystack",
+      "name": "Haystack",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "build"
+      ],
+      "why": "Assembler des pipelines de recherche et de génération.",
+      "how": "Des composants relient récupération, traitement et modèles.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://github.com/deepset-ai/haystack",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "Apache-2.0",
+        "source": "https://github.com/deepset-ai/haystack/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Documents, requêtes et configuration",
+      "outputs": "Réponses et références",
+      "first_step": "Construire une recherche sur un corpus public réduit.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "mlflow",
+      "name": "MLflow",
+      "domains": [
+        "ia"
+      ],
+      "phases": [
+        "measure"
+      ],
+      "why": "Suivre les expériences et versions de modèles.",
+      "how": "Journalise paramètres, métriques et artefacts d’expériences.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://github.com/mlflow/mlflow",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "Apache-2.0",
+        "source": "https://github.com/mlflow/mlflow/blob/master/LICENSE.txt",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Exécutions et métriques",
+      "outputs": "Comparaisons et registre",
+      "first_step": "Comparer deux essais avec la même métrique.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "podman",
+      "name": "Podman",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "deploy"
+      ],
+      "why": "Exécuter des conteneurs avec un moteur alternatif.",
+      "how": "Crée des conteneurs à partir d’images ; l’intégration Windows passe par une machine adaptée.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://github.com/containers/podman",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "Apache-2.0",
+        "source": "https://github.com/podman-container-tools/podman/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Images et configuration",
+      "outputs": "Conteneurs et volumes",
+      "first_step": "Tester un conteneur isolé sans remplacer un moteur existant.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Visualiser les métriques et définir des alertes.",
+      "how": "Interroge des sources configurées ; ne remplace pas leur collecte.",
+      "mode": "local",
+      "license": "AGPL-3.0",
+      "source": "https://github.com/grafana/grafana",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "AGPL-3.0",
+        "source": "https://github.com/grafana/grafana/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Sources de métriques",
+      "outputs": "Tableaux de bord et alertes",
+      "first_step": "Connecter une source de test et afficher une série temporelle.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Collecter et interroger des métriques temporelles.",
+      "how": "Récupère des métriques exposées par des exporters et applique des règles.",
+      "mode": "local",
+      "license": "Apache-2.0",
+      "source": "https://github.com/prometheus/prometheus",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "Apache-2.0",
+        "source": "https://github.com/prometheus/prometheus/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Endpoints de métriques",
+      "outputs": "Séries temporelles et alertes",
+      "first_step": "Surveiller un exporter dans un environnement de test.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "opentofu",
+      "name": "OpenTofu",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "deploy"
+      ],
+      "why": "Décrire et versionner une infrastructure.",
+      "how": "Compare l’état voulu à l’état connu puis prépare un plan avant application.",
+      "mode": "local",
+      "license": "MPL-2.0",
+      "source": "https://github.com/opentofu/opentofu",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MPL-2.0",
+        "source": "https://github.com/opentofu/opentofu/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Configuration et état d’infrastructure",
+      "outputs": "Plan et ressources configurées",
+      "first_step": "Lire un plan sans appliquer de modification.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "ansible",
+      "name": "Ansible",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "deploy"
+      ],
+      "why": "Automatiser des configurations de machines.",
+      "how": "Des inventaires et playbooks appliquent des tâches ; la machine de contrôle doit être compatible.",
+      "mode": "local",
+      "license": "GPL-3.0",
+      "source": "https://github.com/ansible/ansible",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "GPL-3.0",
+        "source": "https://github.com/ansible/ansible/blob/devel/COPYING",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Inventaire et playbooks",
+      "outputs": "Configurations et comptes rendus",
+      "first_step": "Exécuter un contrôle en mode vérification sur une machine de test.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "uptime-kuma",
+      "name": "Uptime Kuma",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Vérifier la disponibilité des services.",
+      "how": "Des sondes vérifient périodiquement des endpoints et gardent leur historique.",
+      "mode": "local",
+      "license": "MIT",
+      "source": "https://github.com/louislam/uptime-kuma",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MIT",
+        "source": "https://github.com/louislam/uptime-kuma/blob/master/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "URLs de services autorisés",
+      "outputs": "État et alertes",
+      "first_step": "Surveiller un service de démonstration.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "restic",
+      "name": "Restic",
+      "domains": [
+        "ops"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Sauvegarder et restaurer des fichiers.",
+      "how": "Crée des snapshots chiffrés et dédupliqués vers un dépôt.",
+      "mode": "local",
+      "license": "BSD-2-Clause",
+      "source": "https://github.com/restic/restic",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "BSD-2-Clause",
+        "source": "https://github.com/restic/restic/blob/master/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Fichiers et dépôt",
+      "outputs": "Snapshots et restaurations",
+      "first_step": "Restaurer un fichier test dans un autre dossier.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "headscale",
+      "name": "Headscale",
+      "domains": [
+        "network"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Auto-héberger un serveur de coordination compatible Tailscale.",
+      "how": "Coordonne un réseau privé ; exige serveur, maintenance et clients compatibles.",
+      "mode": "local",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/juanfont/headscale",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "BSD-3-Clause",
+        "source": "https://github.com/juanfont/headscale/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Identités et appareils autorisés",
+      "outputs": "Réseau privé coordonné",
+      "first_step": "Étudier l’hébergement et la maintenance avant installation.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "domains": [
+        "network"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Relier des appareils autorisés à un réseau privé chiffré.",
+      "how": "Le client ouvert utilise une coordination hébergée ; Headscale est une alternative auto-hébergée. Serve reste privé au réseau, Funnel est un autre mode non utilisé ici.",
+      "mode": "hybrid",
+      "license": "BSD-3-Clause pour le client ; service de coordination hébergé propriétaire",
+      "source": "https://github.com/tailscale/tailscale",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "BSD-3-Clause",
+        "source": "https://github.com/tailscale/tailscale/blob/main/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Appareils et identités autorisés",
+      "outputs": "Accès privé aux services",
+      "first_step": "Connecter le PC et un appareil de test au même réseau privé.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "wireshark",
+      "name": "Wireshark",
+      "domains": [
+        "network"
+      ],
+      "phases": [
+        "test"
+      ],
+      "why": "Analyser des échanges réseau autorisés.",
+      "how": "Capture et décode des paquets selon les interfaces et droits disponibles.",
+      "mode": "local",
+      "license": "GPL-2.0",
+      "source": "https://github.com/wireshark/wireshark",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "GPL-2.0",
+        "source": "https://github.com/wireshark/wireshark/blob/master/COPYING",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Trafic autorisé",
+      "outputs": "Captures et diagnostics",
+      "first_step": "Inspecter une capture publique d’apprentissage.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "librehardwaremonitor",
+      "name": "LibreHardwareMonitor",
+      "domains": [
+        "hardware"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Lire des capteurs matériels Windows compatibles.",
+      "how": "Interroge des interfaces matérielles ; certains capteurs exigent des droits supplémentaires.",
+      "mode": "local",
+      "license": "MPL-2.0",
+      "source": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "MPL-2.0",
+        "source": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Capteurs accessibles",
+      "outputs": "Températures, tensions et ventilateurs",
+      "first_step": "Vérifier les capteurs lisibles sans modifier le matériel.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    },
+    {
+      "id": "smartmontools",
+      "name": "smartmontools",
+      "domains": [
+        "hardware"
+      ],
+      "phases": [
+        "operate"
+      ],
+      "why": "Examiner la santé des disques compatibles.",
+      "how": "Lit les informations SMART accessibles ; disponibilité selon les contrôleurs et droits.",
+      "mode": "local",
+      "license": "GPL-2.0",
+      "source": "https://github.com/smartmontools/smartmontools",
+      "open_source": true,
+      "license_verified": true,
+      "license_proof": {
+        "spdx": "GPL-2.0",
+        "source": "https://github.com/smartmontools/smartmontools/blob/main/COPYING",
+        "checked": "2026-10-19",
+        "verified": true
+      },
+      "reference_only": true,
+      "selected_public": false,
+      "inputs": "Disques et attributs SMART",
+      "outputs": "Rapports de santé",
+      "first_step": "Lire un rapport de santé avant tout test long.",
+      "pitfall": "À évaluer sur un environnement de test. Ne pas installer automatiquement ni remplacer un outil existant sans besoin.",
+      "explanation": "Fiche pédagogique de référence ; installation non attestée."
+    }
+  ],
+  "domains": [
+    {
+      "id": "ia",
+      "label": "IA",
+      "description": "Assistants, modèles et agents"
+    },
+    {
+      "id": "dev",
+      "label": "DEV",
+      "description": "Ingénierie logicielle et tests"
+    },
+    {
+      "id": "data",
+      "label": "DATA",
+      "description": "Acquisition, préparation et analyse"
+    },
+    {
+      "id": "product",
+      "label": "PRODUCT",
+      "description": "Besoins, conception produit et validation"
+    },
+    {
+      "id": "design",
+      "label": "DESIGN",
+      "description": "Interfaces, graphisme et création"
+    },
+    {
+      "id": "project",
+      "label": "PROJECT MANAGEMENT",
+      "description": "Organisation, documentation et coordination"
+    },
+    {
+      "id": "marketing",
+      "label": "MARKETING",
+      "description": "Contenus et communication du produit"
+    },
+    {
+      "id": "ops",
+      "label": "ARCHI / OPS",
+      "description": "Architecture, exécution, sécurité et sauvegarde"
+    },
+    {
+      "id": "network",
+      "label": "RÉSEAUX",
+      "description": "Navigation, connectivité et accès distants"
+    },
+    {
+      "id": "hardware",
+      "label": "HARDWARE",
+      "description": "Matériel, pilotes et diagnostic"
+    }
+  ],
+  "phases": [
+    {
+      "id": "discover",
+      "label": "Cadrer"
+    },
+    {
+      "id": "plan",
+      "label": "Organiser"
+    },
+    {
+      "id": "design",
+      "label": "Concevoir"
+    },
+    {
+      "id": "build",
+      "label": "Construire"
+    },
+    {
+      "id": "test",
+      "label": "Vérifier"
+    },
+    {
+      "id": "deploy",
+      "label": "Déployer"
+    },
+    {
+      "id": "operate",
+      "label": "Exploiter"
+    },
+    {
+      "id": "measure",
+      "label": "Mesurer / améliorer"
+    }
+  ],
+  "relations": [
+    {
+      "source": "agent-ia-local",
+      "target": "opencode",
+      "label": "ouvre",
+      "kind": "reference"
+    },
+    {
+      "source": "opencode",
+      "target": "ollama",
+      "label": "utilise un modèle servi par",
+      "kind": "reference"
+    },
+    {
+      "source": "open-webui",
+      "target": "ollama",
+      "label": "peut interroger",
+      "kind": "suggested"
+    },
+    {
+      "source": "docker-desktop",
+      "target": "penpot",
+      "label": "héberge",
+      "kind": "reference"
+    },
+    {
+      "source": "docker-desktop",
+      "target": "dagster",
+      "label": "héberge le pipeline de données",
+      "kind": "reference"
+    },
+    {
+      "source": "dagster",
+      "target": "python",
+      "label": "exécute les scripts",
+      "kind": "reference"
+    },
+    {
+      "source": "dbeaver",
+      "target": "duckdb",
+      "label": "utilise via JDBC",
+      "kind": "reference"
+    },
+    {
+      "source": "python",
+      "target": "duckdb",
+      "label": "échange via Parquet",
+      "kind": "suggested"
+    },
+    {
+      "source": "openrefine",
+      "target": "dbeaver",
+      "label": "préparer puis explorer",
+      "kind": "suggested"
+    },
+    {
+      "source": "penpot",
+      "target": "visual-studio-code",
+      "label": "concevoir puis développer",
+      "kind": "suggested"
+    },
+    {
+      "source": "bruno",
+      "target": "visual-studio-code",
+      "label": "tester les API développées",
+      "kind": "suggested"
+    },
+    {
+      "source": "github-desktop",
+      "target": "git",
+      "label": "pilote",
+      "kind": "reference"
+    },
+    {
+      "source": "kopiaui",
+      "target": "keepassxc",
+      "label": "mot de passe conservé dans",
+      "kind": "reference"
+    },
+    {
+      "source": "kopiaui",
+      "target": "git",
+      "label": "complète la protection",
+      "kind": "suggested"
+    },
+    {
+      "source": "canva",
+      "target": "notion",
+      "label": "contenus puis planification",
+      "kind": "suggested"
+    },
+    {
+      "source": "prometheus",
+      "target": "grafana",
+      "label": "collecter puis visualiser les métriques",
+      "kind": "reference"
+    },
+    {
+      "source": "git",
+      "target": "gitea",
+      "label": "héberger un historique Git",
+      "kind": "reference"
+    },
+    {
+      "source": "polars",
+      "target": "dagster",
+      "label": "orchestrer des transformations",
+      "kind": "suggested"
+    },
+    {
+      "source": "qdrant",
+      "target": "haystack",
+      "label": "récupérer des documents similaires",
+      "kind": "suggested"
+    },
+    {
+      "source": "fastapi",
+      "target": "pytest",
+      "label": "vérifier les comportements de l’API",
+      "kind": "suggested"
+    },
+    {
+      "source": "playwright",
+      "target": "fastapi",
+      "label": "tester un produit exposant une API",
+      "kind": "suggested"
+    },
+    {
+      "source": "mlflow",
+      "target": "jupyterlab",
+      "label": "conserver les résultats d’expériences",
+      "kind": "suggested"
+    },
+    {
+      "source": "opentofu",
+      "target": "ansible",
+      "label": "provisionner puis configurer",
+      "kind": "suggested"
+    },
+    {
+      "source": "matomo",
+      "target": "apache-superset",
+      "label": "analyser des métriques exportées",
+      "kind": "suggested"
+    }
+  ],
+  "workflow": [
+    {
+      "id": "task-0",
+      "phase": "discover",
+      "title": "Cadrer le besoin",
+      "tools": [
+        "notion",
+        "bookstack",
+        "joplin",
+        "jupyterlab"
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "task-1",
+      "phase": "plan",
+      "title": "Organiser les tâches et décisions",
+      "tools": [
+        "openproject",
+        "plane",
+        "microsoft-to-do"
+      ],
+      "depends_on": [
+        "task-0"
+      ]
+    },
+    {
+      "id": "task-2",
+      "phase": "design",
+      "title": "Concevoir les parcours et les visuels",
+      "tools": [
+        "penpot",
+        "excalidraw",
+        "krita",
+        "blender"
+      ],
+      "depends_on": [
+        "task-1"
+      ]
+    },
+    {
+      "id": "task-3",
+      "phase": "build",
+      "title": "Construire et versionner",
+      "tools": [
+        "vscodium",
+        "visual-studio-code",
+        "git",
+        "gitea",
+        "fastapi"
+      ],
+      "depends_on": [
+        "task-2"
+      ]
+    },
+    {
+      "id": "task-4",
+      "phase": "build",
+      "title": "Préparer les données et l’IA",
+      "tools": [
+        "openrefine",
+        "duckdb",
+        "polars",
+        "dbt-core",
+        "ollama",
+        "qdrant",
+        "haystack"
+      ],
+      "depends_on": [
+        "task-1"
+      ]
+    },
+    {
+      "id": "task-5",
+      "phase": "test",
+      "title": "Vérifier le produit et les interfaces",
+      "tools": [
+        "pytest",
+        "playwright",
+        "bruno",
+        "wireshark"
+      ],
+      "depends_on": [
+        "task-3",
+        "task-4"
+      ]
+    },
+    {
+      "id": "task-6",
+      "phase": "deploy",
+      "title": "Préparer une livraison reproductible",
+      "tools": [
+        "docker-desktop",
+        "podman",
+        "opentofu",
+        "ansible"
+      ],
+      "depends_on": [
+        "task-5"
+      ]
+    },
+    {
+      "id": "task-7",
+      "phase": "operate",
+      "title": "Observer et protéger",
+      "tools": [
+        "grafana",
+        "prometheus",
+        "uptime-kuma",
+        "kopiaui",
+        "restic",
+        "keepassxc",
+        "librehardwaremonitor",
+        "smartmontools"
+      ],
+      "depends_on": [
+        "task-6"
+      ]
+    },
+    {
+      "id": "task-8",
+      "phase": "measure",
+      "title": "Mesurer et améliorer",
+      "tools": [
+        "apache-superset",
+        "metabase",
+        "mlflow",
+        "matomo",
+        "umami"
+      ],
+      "depends_on": [
+        "task-7"
+      ]
+    },
+    {
+      "id": "task-9",
+      "phase": "operate",
+      "title": "Communiquer avec les utilisateurs",
+      "tools": [
+        "mautic",
+        "listmonk"
+      ],
+      "depends_on": [
+        "task-6"
+      ]
+    }
+  ]
+}
